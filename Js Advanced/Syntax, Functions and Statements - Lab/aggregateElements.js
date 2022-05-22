@@ -10,6 +10,7 @@ function aggregateElements(items) {
   }
   console.log(sum);
   console.log(sum2);
+  console.log(concatResult);
 }
 
 aggregateElements([1, 2, 3]);
