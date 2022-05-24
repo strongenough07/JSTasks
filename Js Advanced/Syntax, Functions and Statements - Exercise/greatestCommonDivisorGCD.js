@@ -11,3 +11,17 @@ function greatestCommonDivisorGCD(a, b) {
 }
 
 greatestCommonDivisorGCD(15, 5);
+
+// function greatestCommonDivisorGCD(a, b) {
+//   let small = Math.min(a, b);
+//   let large = Math.max(a, b);
+//   let remainder = 1;
+
+//   do {
+//     remainder = large % small;
+//     large = small;
+//     small = remainder;
+//   } while (remainder != 0);
+//   console.log(large);
+// }
+// greatestCommonDivisorGCD(15, 5);
